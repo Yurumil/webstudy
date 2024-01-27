@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    border : 1px solid blue;
+    height : 400px;
+    justify-content: space-around; 
+    background: rgb(39, 40, 46);
+}
+
+.game {
+    /* border: 2px solid ; */
+    height: 150px;
+    width:  200px;
+}
+
+.game_image {
+    border : 1px solid gray;
+    height: 125px;
+    border-radius: 5px;
+
+}
+
+.game_name {
+    text-align: center;
+    color: white;
+}
+
+#league {
+    background-image: url(https://cdn.dak.gg/portal/images/icon/ico-lol.jpg);
+    background-size: cover;
+}
+
+#teamfight {
+    background-image: url(https://cdn.dak.gg/portal/images/icon/ico-tft.jpg);
+    background-size: cover;
+}
+
+#valorant{
+    background-image: url(https://cdn.dak.gg/portal/images/icon/ico-valorant.jpg);
+    background-size: cover;
+}
+#battleground{
+    background-image: url(https://cdn.dak.gg/portal/images/icon/ico-pubg.jpg);
+    background-size: cover;
+}
