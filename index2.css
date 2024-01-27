@@ -11,15 +11,15 @@
 }
 
 .game_image::before {
+  content: "";
   position: absolute;
-  z-index: 2;
   display: block;
   width: 100%;
   height: 100%;
   top: 0;
   left: -100%;
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 0;
 }
 
 .game {
@@ -32,6 +32,11 @@
   /* border: 1px solid grey; */
   height: 125px;
   border-radius: 5px;
+  overflow: hidden;
+}
+
+.game_image:hover .game_image::before {
+  left: 0;
 }
 
 .game_name {
